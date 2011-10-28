@@ -1,0 +1,64 @@
+
+completely goofy but sometimes handy.
+
+
+Usage: purpledragon.py [options]
+
+Purple Dragon was the code name for a military research project that developed
+the idea of "operations security".  purpledragon.py creates random identifiers
+based on two file dictionaries to allow casual reference to a various event
+between two parties.  This could also be used to generate a challenge/response
+pair though that hasn't been added as an option
+
+Options:
+  -h, --help            show this help message and exit
+  -a ADJECTIVE, --adjective=ADJECTIVE
+                        adjective file to use
+  -n NOUN, --noun=NOUN  noun file to use
+  -q QUANTITY, --quantity=QUANTITY
+                        output X number of identifiers
+
+
+
+example:
+
+$ python purpledragon.py -n nouns -a adjectives -q 20
+Obeisant Driving
+
+Futuristic Day
+
+Debonair Crow
+
+Tasteful Toothbrush
+
+Obscene Toy
+
+Cloudy Good-bye
+
+Orange Support
+
+Hurt Vacation
+
+Watery Root
+
+Orange Sidewalk
+
+Sad Grain
+
+Tiny Feast
+
+Skinny Holiday
+
+Ableabnormal Connection
+
+Jumbled Calendar
+
+Earsplitting Glass
+
+Magenta Amount
+
+Crazy Impulse
+
+Ceaseless Protest
+
+Tranquil Police
